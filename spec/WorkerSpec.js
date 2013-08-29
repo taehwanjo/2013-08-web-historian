@@ -10,6 +10,7 @@ describe("html fetcher helpers", function(){
 
     var filePath = path.join(__dirname, "/testdata/sites.txt");
 
+    console.log("Worker spec path is "+filePath);
     fs.writeFileSync(filePath, urlArray.join("\n"));
 
     var resultArray;
@@ -27,7 +28,7 @@ describe("html fetcher helpers", function(){
     });
   });
 
-  xit("should have a 'downloadUrls' function", function(){
+  it("should have a 'downloadUrls' function", function(){
     var result = htmlFetcherHelpers.downloadUrls();
     expect(result).toBeTruthy();
   });

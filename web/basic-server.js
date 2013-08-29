@@ -7,3 +7,7 @@ var server = http.createServer(myStuff.handleRequest);
 console.log("Listening on http://" + ip + ":" + port);
 server.listen(port, ip);
 
+ // (err, data){
+ //        res.writeHead(200, {'Content-Type': 'text/html','Content-Length':data.length});
+ //        res.write(data);
+ //        res.end();
