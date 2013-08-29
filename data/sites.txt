@@ -1,14 +1,8 @@
 www.google.com
 www.yahoo.com
-asdf
-asdf
-asdf
-asdf
-asdf3
-asdf4
-www.cnn.com
 www.cnn.com
 www.example.com
 www.hobo.com
 yahoo.com
 www.hackreactor.com
+www.asdf.com
